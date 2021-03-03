@@ -15,7 +15,6 @@
 |Morgan|         |          |Postgresql|        |
 
 <br>
-----
 <br>
 
 # Pug Syntax
