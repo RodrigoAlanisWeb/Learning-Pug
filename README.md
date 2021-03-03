@@ -1,9 +1,7 @@
 # Learning Pug | Product App
-## Product app with **nodejs** and **pug**
+> Product app with **nodejs** and **pug**
 
 <img src="./pug.png" alt="pug" width="250" height="250">
-
----
 
 <br>
 
@@ -11,18 +9,10 @@
 
 <br>
 
-* Server
-    * Nodejs
-    * Morgan
-* Templates
-    * Pug
-* Styles 
-    * Bootswatch Cosmo Theme
-* Database
-    * Prisma orm
-    * Postgresql database
-* Compiler
-    * Babel
+|Server|Templates|Styles    |Database  |Compiler|
+|------|---------|----------|----------|--------|
+|Nodejs|Pug      |Bootswatch|Prisma Orm|Babel   |
+|Morgan|         |          |Postgresql|        |
 
 <br>
 ----
