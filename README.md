@@ -54,10 +54,10 @@ form
     //- Clases
     div.mb_3 
         //- Atributes
-        input.form-ciontrol(type="text") 
+        input.form-control(type="text") 
     div.mb_3 
         //- More Atributes
-        input.form-ciontrol(type="text" placeholder="Name") 
+        input.form-control(type="text" placeholder="Name") 
 
 ```
 
