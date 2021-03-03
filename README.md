@@ -1,6 +1,8 @@
 # Learning Pug | Product App
 ## Product app with **nodejs** and **pug**
 
+<img src="./pug.png" alt="pug" width="250" height="250">
+
 ---
 
 <br>
@@ -143,5 +145,7 @@ block main
 ## Thats The Pug Basics Thanks For Reading
 
 ## For More Info:
-[https://pugjs.org/api/getting-started.html]Pug Docs Page
-[https://github.com/RodrigoAlanisWeb]Git Hub Profile
+
+[Pug Docs Page](https://pugjs.org/api/getting-started.html)
+
+[Git Hub Profile](https://github.com/RodrigoAlanisWeb)
