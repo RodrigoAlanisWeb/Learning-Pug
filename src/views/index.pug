@@ -1,0 +1,32 @@
+extends ./templates/main
+block main
+    h1.text-center.fw-ligth.mt-5 Product App
+    div.w-75.m-auto.pt-5
+        form(action="/create" method="POST")
+            h2.mb-3 Create a product
+            .mb-3 
+                input.form-control(type="text" placeholder="Name" name="name") 
+            .mb-3 
+                input.form-control(type="number" placeholder="Count" name="count") 
+            button.btn.btn-secondary.mb-5 Create
+
+        table.table.table-dark
+            thead
+                tr
+                    th(scope='col') #
+                    th(scope='col').w-25.text-center Name
+                    th(scope='col').text-center Count
+                    th(scope='col').text-center Actions
+            tbody
+                each item in data
+                    tr
+                        th(scope='row') #{ item.id }
+                        td.text-center #{ item.name }
+                        td.text-center #{ item.count }
+                        td.d-flex.justify-content-center  
+                            a(href="/delete/"+item.id).btn.btn-danger Delete
+                            a(href="/update/"+item.id).btn.btn-primary.mx-3 Edit 
+                else 
+                    .alert.alert-danger Not Products   
+                
+                

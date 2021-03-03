@@ -1,0 +1,11 @@
+extends ./templates/main
+block main
+    h1.text-center.fw-ligth.mt-5 Product App
+    div.w-75.m-auto.pt-5
+        form(action="/save/"+id method="POST")
+            h2.mb-3 Edit a product
+            .mb-3 
+                input.form-control(type="text" name="name" value=data.name) 
+            .mb-3 
+                input.form-control(type="number" value=data.count name="count") 
+            button.btn.btn-secondary.mb-5 Save
